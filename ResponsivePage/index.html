@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav id="navbar">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="content">
+    <section id="home">
+        <h1>Welcome to Our Company</h1>
+        <p>We are dedicated to providing the best services to our customers. Explore our website to learn more about what we do and how we can help you achieve your goals.</p>
+        <img src="https://images.unsplash.com/photo-1593642634371-8b2d75b95e59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDEwfHxob21lfGVufDB8fHx8MTY0NzQ2OTMyNQ&ixlib=rb-1.2.1&q=80&w=1080" alt="Home Image">
+    </section>
+
+    <section id="about">
+        <h1>About Us</h1>
+        <p>Our company is committed to excellence and innovation. With a team of experienced professionals, we deliver top-notch services to our clients. Our mission is to empower our clients with the tools and resources they need to succeed.</p>
+        <p>We believe in building long-lasting relationships based on trust and mutual respect. Learn more about our journey and values.</p>
+        <img src="https://images.unsplash.com/photo-1565379933993-0e2cfef6aa38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fG9mZmljZXxlbnwwfHx8fDE2NDc0NjkzNTY&ixlib=rb-1.2.1&q=80&w=1080" alt="About Image">
+    </section>
+
+    <section id="services">
+        <h1>Our Services</h1>
+        <p>We offer a wide range of services tailored to meet the unique needs of our clients. From consulting to implementation, we have the expertise to help you achieve your objectives.</p>
+        <div class="services-list">
+            <div class="service-item">
+                <h2>Consulting</h2>
+                <p>Our experts provide strategic advice to help you navigate complex challenges and make informed decisions.</p>
+            </div>
+            <div class="service-item">
+                <h2>Implementation</h2>
+                <p>We assist with the implementation of solutions that drive efficiency and effectiveness in your operations.</p>
+            </div>
+            <div class="service-item">
+                <h2>Support</h2>
+                <p>Our support team is always available to assist you with any issues or questions you may have.</p>
+            </div>
+        </div>
+        <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDl8fGJ1c2luZXNzfGVufDB8fHx8MTY0NzQ2OTM4MQ&ixlib=rb-1.2.1&q=80&w=1080" alt="Services Image">
+    </section>
+
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <p>We would love to hear from you and discuss how we can assist you with your needs. Please fill out the form below or use one of the other contact methods listed.</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+        <p>Alternatively, you can reach us at:</p>
+        <ul>
+            <li><strong>Email:</strong> contact@ourcompany.com</li>
+            <li><strong>Phone:</strong> (123) 456-7890</li>
+            <li><strong>Address:</strong> 123 Main Street, Anytown, USA</li>
+        </ul>
+    </section>
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
